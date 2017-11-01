@@ -14,7 +14,7 @@ public class SelePract
 		WebDriver driver= new ChromeDriver();
 		System.out.println("Chrome initialized");
 		driver.get("https://www.google.com");
-		//System.out.println(driver.getTitle());
+	
 		//driver.findElement(By.xpath("//input[@id='q']")).sendKeys(search);
 		Thread.sleep(1000);
 		System.out.println("search string "+search);

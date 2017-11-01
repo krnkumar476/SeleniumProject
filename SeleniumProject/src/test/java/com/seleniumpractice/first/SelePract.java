@@ -6,7 +6,7 @@ import org.testng.annotations.Test;
 import com.seleniumpractice.first.SetTestName;
 public class SelePract
 {
-	//@SetTestName(idx=0)
+	
 	 @Test(dataProvider="rawDP")
 	public void demoPrint(String search) throws InterruptedException
     {
